@@ -1,2 +1,3 @@
 # Braintime
-Automatic image and video sorting
+Collecting ideas i have over the time
+

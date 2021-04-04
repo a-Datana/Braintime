@@ -1,11 +1,11 @@
 # Get the files which should be moved, without folders
-$files = Get-ChildItem 'F:\Bilder_Unsortiert' -Recurse | where {!$_.PsIsContainer}
+$files = Get-ChildItem 'F:\Images_Unsorted' -Recurse | where {!$_.PsIsContainer}
  
 # List Files which will be moved
 $files
  
 # Target Filder where files should be moved to. The script will automatically create a folder for the year and month.
-$targetPath = 'F:\Bilder'
+$targetPath = 'F:\Images'
  
 foreach ($file in $files)
 {
@@ -35,7 +35,7 @@ $file | Move-Item -Destination $Directory
 
 
 # Get the files which should be moved, without folders
-$files = Get-ChildItem 'F:\Videos_Unsortiert' -Recurse | where {!$_.PsIsContainer}
+$files = Get-ChildItem 'F:\Videos_Unsorted' -Recurse | where {!$_.PsIsContainer}
  
 # List Files which will be moved
 $files

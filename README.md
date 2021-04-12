@@ -1,5 +1,7 @@
 # Braintime/ Thought Collection
 
+LEARN HOW TO USE GITHUB
+
 -Video/Image Sorting
   - Sorting
     - Sort by LastWritten ✅
